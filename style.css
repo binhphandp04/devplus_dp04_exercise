@@ -137,7 +137,7 @@ html body {
 .row-body2 {
     display: flex;
     flex-wrap: wrap;
-    width:1270px;
+    width: 1270px;
     height: 530px;
     margin: 0 -15px;
     justify-content: center;
@@ -145,7 +145,7 @@ html body {
 }
 
 .fadeInUp {
-    width:423px;
+    width: 423px;
     height: 145px;
     padding: 0 15px;
     margin: 0 0 30px 0;
@@ -167,13 +167,16 @@ html body {
     display: flex;
     align-items: center;
 }
+
 h2.section-body-2__title-content {
     font-weight: 700;
 }
+
 h4.row-body2__content-title {
     font-weight: 700;
 }
-span.row-body2__course{
+
+span.row-body2__course {
     font-weight: 400;
 }
 
@@ -206,12 +209,12 @@ svg {
 }
 
 .row-body2__content-part {
-    max-width:227px;
+    max-width: 227px;
     height: 58px;
 }
 
 .row-body2__content-part--fix {
-    max-width:227px;
+    max-width: 227px;
     height: 70px;
 }
 
@@ -254,6 +257,7 @@ svg {
 .row-body2__item:hover .row-body2__content-part .row-body2__course {
     color: #ffffff;
 }
+
 .row-body2__item:hover .row-body2__item-icon-box {
     background: #ffffff
 }
@@ -266,6 +270,7 @@ svg {
 html {
     scroll-behavior: smooth;
 }
+
 /*-------------End BangDanhCSS/Whatanengineer_home-----------*/
 /*-------------BinhPhanCSS/Ourmaincampus_home-----------*/
 
@@ -274,7 +279,7 @@ html {
     justify-content: center;
     align-items: center;
 
-    padding-top:94px ;
+    padding-top: 94px;
     padding-bottom: 70px;
     background: url(/assets/images/Ourmaincampus_home-8-bg.jpg);
     background-size: cover;
@@ -282,69 +287,76 @@ html {
     background-position: center center;
 }
 
-.main-campus_container{
+.main-campus_container {
     margin: 0px 58px 0px;
     padding: 0px 15px 0px;
     max-width: 1170px;
     width: 100%;
 }
 
-@media only screen and (min-width: 1440px){
-    .main-campus{
+@media only screen and (min-width: 1440px) {
+    .main-campus {
         max-width: auto;
         width: 100%;
     }
+
     .main-campus_container {
         max-width: 1270px;
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 1366px){
-    .main-campus{
+@media only screen and (max-width: 1366px) {
+    .main-campus {
         max-width: 1366px;
         width: 100%;
     }
+
     .main-campus_container {
         max-width: 1170px;
         width: 100%;
     }
-    .main-campus_row_content-part_title{
+
+    .main-campus_row_content-part_title {
         font-size: 22px;
     }
 }
 
-@media only screen and (max-width: 1199px){
-    .main-campus{
+@media only screen and (max-width: 1199px) {
+    .main-campus {
         max-width: 1199px;
         width: 100%;
     }
+
     .main-campus_container {
         max-width: 960px;
         width: 100%;
     }
-    .main-campus_row_content-part h3{
+
+    .main-campus_row_content-part h3 {
         font-size: 19px;
     }
 
 }
 
-@media only screen and (max-width: 991px){
-    .main-campus{
+@media only screen and (max-width: 991px) {
+    .main-campus {
         max-width: 991px;
         width: 100%;
     }
+
     .main-campus_container {
         max-width: 720px;
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 767px){
-    .main-campus{
+@media only screen and (max-width: 767px) {
+    .main-campus {
         max-width: 767px;
         width: 100%;
     }
+
     .main-campus_container {
         max-width: 540px;
         width: 100%;
@@ -352,7 +364,7 @@ html {
 }
 
 
-.main-campus_title{
+.main-campus_title {
     margin: 0px -15px 50px;
     padding: 0 15px 0px;
 }
@@ -371,16 +383,19 @@ h2.main-campus_title_h2 {
     display: flex;
     flex-wrap: wrap;
 }
-.main-campus_row_courses-item_img img{
+
+.main-campus_row_courses-item_img img {
     width: 100%;
     max-width: 100%;
 }
+
 .main-campus_cover-box-content {
     margin-bottom: 30px;
     padding: 0px 15px 0px;
     max-width: 100%;
     width: 100%;
 }
+
 h3.main-campus_row_content-part_title {
     font-family: 'Nunito', sans-serif;
     line-height: 1.2;
@@ -389,21 +404,21 @@ h3.main-campus_row_content-part_title {
     font-weight: 700;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
     .main-campus_cover-box-content {
         flex: 0 0 auto;
         width: 50%;
     }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
     .main-campus_cover-box-content {
         flex: 0 0 auto;
         width: 33.33333333%;
     }
 }
 
-.main-campus_box-content{
+.main-campus_box-content {
     border: 1px 1px 1px 1px;
     padding: 30px;
     border: 1px solid #dfe9eb;
@@ -418,10 +433,9 @@ h3.main-campus_row_content-part_title {
 }
 
 
-
 /* option2 */
 
-.main-campus-cover{
+.main-campus-cover {
     font-size: 15px;
     color: #505050;
     font-family: 'Rubik', sans-serif;
@@ -433,55 +447,55 @@ h3.main-campus_row_content-part_title {
 .main-campus-cover_item-center {
     display: flex;
     flex-wrap: wrap;
-    align-items: center!important;
+    align-items: center !important;
 
     margin-left: -15px;
     margin-right: -15px;
     max-width: 100%;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .main-campus-cover_item-center_img {
         flex: 0 0 auto;
         width: 50%;
     }
 }
+
 .main-campus-cover_item-center_img img {
     max-width: 100%;
     height: auto;
 }
 
-.main-campus-item-center_cover-content{
+.main-campus-item-center_cover-content {
     padding: 0px 15px 0px 105px;
     max-width: 700px;
 }
-@media (min-width: 992px){
-    .main-campus-item-center_cover-content
-    {
+
+@media (min-width: 992px) {
+    .main-campus-item-center_cover-content {
         flex: 0 0 auto;
         width: 50%;
     }
 }
 
-@media (min-width: 1200px)
-{
+@media (min-width: 1200px) {
     .main-campus_title_h2 h2 {
         font-size: 2rem;
     }
 }
-@media only screen and (max-width: 991px){
+
+@media only screen and (max-width: 991px) {
     .main-campus-item-center_cover-content {
         padding: 20px 15px 20px 30px;
     }
 }
 
 
-
-.main-campus_item-center_cover-content_content{
+.main-campus_item-center_cover-content_content {
     margin-bottom: 40px;
 }
 
-a.main-campus-item-center_cover-content_button_style{
+a.main-campus-item-center_cover-content_button_style {
     font-family: 'Rubik', sans-serif;
 
     color: #ffffff;
